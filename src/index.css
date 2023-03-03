@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --xsm: 1.6rem; /* for button & input */
+  --sm: 1.8rem; /* for body text */
+  --md: 1.875rem; /* for subheadings */
+  --lg: 2.1875rem; /* for headings */
+  --xl: 3.1875rem; /* for larger headings */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.07rem;
+  font-family: 'Roboto Slab', serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-size: var(--sm);
+  background-color: #f7f8fc;
+}
+
+.maxWidth {
+  max-width: 1200px;
+}
+
+/* Heading and paragraph css */
+h1 {
+  font-weight: 500;
+  font-size: var(--xl);
+}
+
+h2 {
+  font-weight: 400;
+  font-size: var(--lg);
+}
+
+h3 {
+  font-weight: 400;
+  font-size: var(--md);
+}
+
+a {
+  font-weight: 400;
+  font-size: var(--sm);
+}
+
+p,
+li,
+span {
+  font-weight: 300;
+  font-size: var(--xsm);
+}
+
+.padding-px {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.gradient {
+  background-image: linear-gradient(
+    135deg,
+    hsl(182deg 100% 40%) 0%,
+    hsl(210deg 100% 50%) 33%,
+    hsl(268deg 82% 71%) 67%,
+    hsl(0deg 0% 100%) 100%
+  );
+}

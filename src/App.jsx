@@ -1,9 +1,11 @@
-import './App.css'
+import { Header } from "./Container/Header"
+import Homepage from "./pages/HomePage"
 
 function App() {
   return (
     <div className="App">
-      Sundar UI
+      <Header />
+      <Homepage />
     </div>
   )
 }
