@@ -9,16 +9,16 @@ const Hero = () => {
       <div className="flex items-center maxWidth m-auto py-44 flex-col sm:flex-col md:flex-row">
         <div className="flex-1 text-white">
           <p className="my-2 text-3xl font-medium text-yellow">
-            Presented Raj Patel and Dipesh Patel
+            Supercharge Your Development
           </p>
           <h1 className="my-10 font-bold text-5xl md:text-6xl sm:text-7xl leading-tight">
-            Use prebuilt components for your next project
+            Efficient development with prebuilt components
           </h1>
           <p className="text-3xl leading-normal">
-            Get attractively designed components built with Tailwind CSS, XML,
-            and XSL for your websites and mobile applications.
+            Enhance your web and mobile app development using a versatile set of
+            open-source components, designed with Tailwind CSS, XML, and XSL.
           </p>
-          <div className="mt-10">
+          <div className="mt-10 flex">
             <Orange text={"Components"} />
             <Yellow text={"Contribute"} />
           </div>
