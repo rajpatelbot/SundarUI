@@ -1,4 +1,4 @@
-import Hero from "../Components/Hero"
+import Hero from "../Layout/Hero"
 
 const Homepage = () => {
     return (
