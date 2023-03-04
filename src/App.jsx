@@ -1,10 +1,10 @@
-import { Header } from "./Container/Header"
+import Navbar from "./Container/Navbar";
 import Homepage from "./pages/HomePage"
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Navbar />
       <Homepage />
     </div>
   )

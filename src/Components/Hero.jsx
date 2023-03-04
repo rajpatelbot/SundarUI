@@ -6,24 +6,24 @@ import { Orange, Yellow } from "../Components/Button";
 const Hero = () => {
   return (
     <section className="padding-px gradient">
-      <div className="flex items-center maxWidth m-auto py-44">
+      <div className="flex items-center maxWidth m-auto py-44 flex-col sm:flex-col md:flex-row">
         <div className="flex-1 text-white">
           <p className="my-2 text-3xl font-medium text-yellow">
             Presented Raj Patel and Dipesh Patel
           </p>
-          <h1 className="my-10 font-bold text-7xl leading-tight">
-            Use builded components for your next project
+          <h1 className="my-10 font-bold text-5xl md:text-6xl sm:text-7xl leading-tight">
+            Use prebuilt components for your next project
           </h1>
           <p className="text-3xl leading-normal">
-            Get beautifull designed components built in Tailwind CSS and XML,
-            XSL for your websites and mobile application.
+            Get attractively designed components built with Tailwind CSS, XML,
+            and XSL for your websites and mobile applications.
           </p>
           <div className="mt-10">
-            <Orange text={"Let's Start"} />
-            <Yellow text={"Contact"} />
+            <Orange text={"Components"} />
+            <Yellow text={"Contribute"} />
           </div>
         </div>
-        <div className="flex flex-1 justify-end">
+        <div className="flex flex-1 justify-end mt-20 sm:mt-0 md:mt-0">
           <div className="">
             <img className="w-full" src={man} alt="man" />
           </div>
