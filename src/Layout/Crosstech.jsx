@@ -3,6 +3,7 @@ import html from "../assets/crosstech/html.svg";
 import react from "../assets/crosstech/react.svg";
 import vue from "../assets/crosstech/vue.svg";
 import xml from "../assets/crosstech/xml.svg";
+import Layoutheader from "../Components/LayoutHeader";
 
 const techDetails = [
   {
@@ -30,12 +31,12 @@ const techDetails = [
 const Crosstech = () => {
   return (
     <div className="padding-px w-full py-24">
-      <h1 className="text-center">SundarUI for different technologies</h1>
-      <h3 className="text-center text-cyan my-8 max-w-7xl m-auto">
-        Explore our open-source component libraries, designed for HTML and
-        popular frameworks like React.js, Vue.js, XML, and XSL.
-      </h3>
-
+      <Layoutheader
+        title={"SundarUI for different technologies"}
+        desc={
+          "Explore our open-source component libraries, designed for HTML and popular frameworks like React.js, Vue.js, XML, and XSL."
+        }
+      />
       <div className="flex flex-col md:flex-row items-center maxWidth m-auto mt-20">
         <div className="flex-0" style={{ width: "35rem" }}>
           <img className="w-full" src={crosstechImg} alt="crosstechImg" />
