@@ -1,3 +1,4 @@
+import Component from "../Layout/Component"
 import Crosstech from "../Layout/Crosstech"
 import Hero from "../Layout/Hero"
 
@@ -6,6 +7,7 @@ const Homepage = () => {
         <div>
             <Hero />
             <Crosstech />
+            <Component />
         </div>
     )
 }

@@ -1,10 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
+import { DataProvider } from './Contexts/DataProvider';
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <DataProvider>
+      <App />
+      <div>dsv</div>
+    </DataProvider>
   </React.StrictMode>,
 )
