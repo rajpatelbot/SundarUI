@@ -3,7 +3,7 @@ import html from "../assets/crosstech/html.svg";
 import react from "../assets/crosstech/react.svg";
 import vue from "../assets/crosstech/vue.svg";
 import xml from "../assets/crosstech/xml.svg";
-import Layoutheader from "../Components/LayoutHeader";
+import Layoutheader from "../Components/Layoutheader";
 
 const techDetails = [
   {
