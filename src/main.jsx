@@ -8,7 +8,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <DataProvider>
       <App />
-      <div>dsv</div>
     </DataProvider>
   </React.StrictMode>,
 )
