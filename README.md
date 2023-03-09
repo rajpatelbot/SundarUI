@@ -51,3 +51,15 @@
 
 - Support for multiple libraries: While Tailwind CSS and XML/XSL, Sundar UI is also useful to support other popular libraries such as React.js, Vue.js along with that normal HTML5.
 
+# Contribution 
+Any contribution are highly appreciated. 🙏 You cam contribute in two ways:
+
+1. create an issue and tell us your idea 💡. Make sure that you use the **new idea** label in this case;
+2. fork the project and submit a PR with your new idea. Before doing that, please make sure that you read and follow the [Contribution Guide](./CONTRIBUTING.md);
+
+# Spread the word!
+
+If the information from this repo was useful to you in any way, make sure you give it a star 🌟, this way others can find it and benefit too! Together we can grow and make our community better! :smiley:
+
+Do you have any suggestions on how we could improve this project overall? Let us know! We'd love to hear your feedback! 
+
