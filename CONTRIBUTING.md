@@ -1,4 +1,4 @@
-## Contribution Guide
+## Contribution Guide 📖
 
 Thank you for your interest in contributing to the Sunder Ui website!
 
@@ -14,11 +14,8 @@ Before getting started, please make sure you read and understand our contributio
 
 5. Contributing Code: If you want to contribute code to Sunder Ui, please follow these steps:
 
-<ul>
-  <li> Fork the Sunder Ui repository on GitHub </li>
-  <li> Create a new branch for your changes </li>
-  <li> Make your changes and commit them to your branch </li>
-  <li> Push your branch to your fork on GitHub </li>
-  <li> Submit a pull request to the Sunder Ui repository</li>
-  
-  </ul
+   - Fork the Sunder Ui repository on GitHub
+   - Create a new branch for your changes
+   - Make your changes and commit them to your branch
+   - Push your branch to your fork on GitHub
+   - Submit a pull request to the Sunder Ui repository
