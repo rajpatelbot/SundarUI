@@ -1,14 +1,14 @@
 import man from "../assets/hero/man.png";
 import women from "../assets/hero/women.png";
 
-import { Orange, Yellow } from "../Components/Button";
+import { Orange, Violet } from "../Components/Button";
 
 const Hero = () => {
   return (
-    <section className="padding-px gradient">
+    <section className="padding-px bg-lightRed">
       <div className="flex items-center maxWidth m-auto py-44 flex-col sm:flex-col md:flex-row">
-        <div className="flex-1 text-white">
-          <p className="my-2 text-3xl font-medium text-yellow">
+        <div className="flex-1 text-black">
+          <p className="my-2 text-3xl font-medium text-violet">
             Supercharge Your Development
           </p>
           <h1 className="my-10 font-bold text-5xl md:text-6xl sm:text-7xl leading-tight">
@@ -20,7 +20,7 @@ const Hero = () => {
           </p>
           <div className="mt-10 flex">
             <Orange text={"Components"} />
-            <Yellow text={"Contribute"} />
+            <Violet text={"Contribute"} />
           </div>
         </div>
         <div className="flex flex-1 justify-end mt-20 sm:mt-0 md:mt-0">
