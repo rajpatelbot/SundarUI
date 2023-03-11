@@ -11,12 +11,12 @@ export const Orange = ({ text }) => {
   );
 };
 
-export const Yellow = ({ text }) => {
+export const Violet = ({ text }) => {
   return (
     <a href="#!">
-      <button className="flex items-center bg-transparent text-yellow py-2 px-4 border border-yellow rounded ml-2">
+      <button className="flex items-center bg-transparent text-violet py-2 px-4 border border-violet rounded ml-2">
         {text}
-        <BsArrowRight  className="ml-2"  />
+        <BsArrowRight className="ml-2" />
       </button>
     </a>
   );
