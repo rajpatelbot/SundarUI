@@ -1,3 +1,4 @@
+import { Footer } from "./Container/Footer";
 import Navbar from "./Container/Navbar";
 import Homepage from "./pages/Homepage"
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Homepage />
+      <Footer />
     </div>
   )
 }
