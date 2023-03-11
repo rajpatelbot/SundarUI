@@ -1,6 +1,8 @@
 import Component from "../Layout/Component"
 import Crosstech from "../Layout/Crosstech"
+import Faqs from "../Layout/Faqs"
 import Hero from "../Layout/Hero"
+import Testimonial from "../Layout/Testimonial"
 
 const Homepage = () => {
     return (
@@ -8,6 +10,8 @@ const Homepage = () => {
             <Hero />
             <Crosstech />
             <Component />
+            <Testimonial />
+            <Faqs />
         </div>
     )
 }
