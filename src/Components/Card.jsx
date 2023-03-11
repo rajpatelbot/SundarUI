@@ -1,8 +1,8 @@
 import { TbExternalLink } from "react-icons/tb";
 
-const Card = ({ id, icon, text, href }) => {
+const Card = ({ id, icon, text, url }) => {
   return (
-    <a key={id} href={href}>
+    <a key={id} href={url}>
       <div className="p-5 rounded-md shadow-md bg-white">
         <div className="w-28 mb-5 m-auto">
           <img className="w-full" src={icon} alt={text} />
