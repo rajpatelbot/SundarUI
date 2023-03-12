@@ -1,4 +1,4 @@
-# SundarUI 😍
+# SundarUI😍
 
 <p align="center">
 <a href="https://sundar-ui.netlify.app/#">
@@ -19,14 +19,14 @@
   </a>
 </p>
 
-# Motivation 🚀
+# Motivation🙂
 
 - Streamlining development
 - Saving time and effort
 - Improving consistency
 - Accessibility
 
-# Tech/Framework used 💻
+# Tech/Framework used💻
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -37,7 +37,7 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
-# Features 👍
+# Features👍
 
 - **Comprehensive component library**: Sundar UI should offer a wide range of pre-built components for both Tailwind CSS and mobile applications. These components covers common UI elements such as buttons, forms, navigation and more.
 
@@ -51,7 +51,7 @@
 
 - **Support for multiple libraries**: While Tailwind CSS and XML/XSL, Sundar UI is also useful to support other popular libraries such as React.js, Vue.js along with that normal HTML5.
 
-# Getting Started 🚲
+# Getting Started🚀
 Getting started with Sundar UI is easy, and we've made it even easier with our step-by-step guide. Follow these detailed steps to start using our prebuilt components for Tailwind CSS and XML, XSL:
 
 1. Visit our website at [https://sundar-ui.netlify.app/](https://sundar-ui.netlify.app/)
@@ -79,6 +79,23 @@ Getting started with Sundar UI is easy, and we've made it even easier with our s
 That's it! With Sundar UI, you can save time and effort by using our prebuilt components to quickly and easily create beautiful, responsive websites and applications.
 
 
+## Configure this project to work on your local machine🧰
+### 📑Prerequisites
+Before starting out, you'll to install the folowing on your computer.
+
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+### 🛠️Installation
+1. Fork this repo by clicking on the `Fork` button.
+2. Clone the repository using `git clone {repository url}`. You can find repo url by clicking on the `Code` button.
+3. Run `cd SundarUI` to change the current directory.
+4. Install the dependencies by running the command `npm install` OR `npm i`.
+5. Start the development server by running the command `npm run dev`.
+6. To see the output, click on the url `http://localhost:5173/` .
+
 # Components
 Sundar UI provides a variety of components that you can use in your web projects. Here are some examples:
 
@@ -90,13 +107,13 @@ Sundar UI provides a variety of components that you can use in your web projects
 
 For a full list of components, please refer on the Sundar UI website.
 
-# Contribution 👨‍💻
+# Contribution👨‍💻
 Any contribution are highly appreciated. 🙏 You cam contribute in two ways:
 
 1. create an issue and tell us your idea 💡. Make sure that you use the `enhancement` label in this case.
 2. fork the project and submit a PR with your new idea. Before doing that, please make sure that you read and follow the [Contribution Guide](./CONTRIBUTING.md).
 
-# Spread the word! 🌐
+# Spread the word!🌐
 
 If the information from this repo was useful to you in any way, make sure you give it a star 🌟, this way others can find it and benefit too! Together we can grow and make our community better! :smiley:
 
