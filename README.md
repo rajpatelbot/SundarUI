@@ -19,6 +19,9 @@
   </a>
 </p>
 
+# What is SundarUI?
+Sundar UI is a library of prebuilt user interface (UI) components that can be easily integrated into your web projects. The library provides a variety of components that are designed to be visually appealing and functional, including buttons, forms, modals, and more.
+
 # Motivation🙂
 
 - Streamlining development
@@ -96,7 +99,7 @@ Before starting out, you'll to install the folowing on your computer.
 5. Start the development server by running the command `npm run dev`.
 6. To see the output, click on the url `http://localhost:5173/` .
 
-# Components
+# Components⚛️
 Sundar UI provides a variety of components that you can use in your web projects. Here are some examples:
 
 - Buttons
@@ -112,6 +115,9 @@ Any contribution are highly appreciated. 🙏 You cam contribute in two ways:
 
 1. create an issue and tell us your idea 💡. Make sure that you use the `enhancement` label in this case.
 2. fork the project and submit a PR with your new idea. Before doing that, please make sure that you read and follow the [Contribution Guide](./CONTRIBUTING.md).
+
+# Code of Conduct📘
+Please refer to our [Code of Conduct](./CODE_OF_CONDUCT.md) to ensure that your contributions align with our community values and standards of conduct.
 
 # Spread the word!🌐
 
