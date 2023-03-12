@@ -22,14 +22,14 @@
 # What is SundarUI?
 Sundar UI is a library of prebuilt user interface (UI) components that can be easily integrated into your web projects. The library provides a variety of components that are designed to be visually appealing and functional, including buttons, forms, modals, and more.
 
-# Motivation🙂
+## Motivation🙂
 
 - Streamlining development
 - Saving time and effort
 - Improving consistency
 - Accessibility
 
-# Tech/Framework used💻
+## Tech/Framework used💻
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -40,7 +40,7 @@ Sundar UI is a library of prebuilt user interface (UI) components that can be ea
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
-# Features👍
+## Features👍
 
 - **Comprehensive component library**: Sundar UI should offer a wide range of pre-built components for both Tailwind CSS and mobile applications. These components covers common UI elements such as buttons, forms, navigation and more.
 
@@ -54,7 +54,7 @@ Sundar UI is a library of prebuilt user interface (UI) components that can be ea
 
 - **Support for multiple libraries**: While Tailwind CSS and XML/XSL, Sundar UI is also useful to support other popular libraries such as React.js, Vue.js along with that normal HTML5.
 
-# Getting Started🚀
+## Getting Started🚀
 Getting started with Sundar UI is easy, and we've made it even easier with our step-by-step guide. Follow these detailed steps to start using our prebuilt components for Tailwind CSS and XML, XSL:
 
 1. Visit our website at [https://sundar-ui.netlify.app/](https://sundar-ui.netlify.app/)
@@ -99,7 +99,7 @@ Before starting out, you'll to install the folowing on your computer.
 5. Start the development server by running the command `npm run dev`.
 6. To see the output, click on the url `http://localhost:5173/` .
 
-# Components⚛️
+## Components⚛️
 Sundar UI provides a variety of components that you can use in your web projects. Here are some examples:
 
 - Buttons
@@ -110,18 +110,42 @@ Sundar UI provides a variety of components that you can use in your web projects
 
 For a full list of components, please refer on the Sundar UI website.
 
-# Contribution👨‍💻
+## Contribution👨‍💻
 Any contribution are highly appreciated. 🙏 You cam contribute in two ways:
 
 1. create an issue and tell us your idea 💡. Make sure that you use the `enhancement` label in this case.
 2. fork the project and submit a PR with your new idea. Before doing that, please make sure that you read and follow the [Contribution Guide](./CONTRIBUTING.md).
 
-# Code of Conduct📘
+## Code of Conduct📘
 Please refer to our [Code of Conduct](./CODE_OF_CONDUCT.md) to ensure that your contributions align with our community values and standards of conduct.
 
-# Spread the word!🌐
+## Spread the word!🌐
 
 If the information from this repo was useful to you in any way, make sure you give it a star 🌟, this way others can find it and benefit too! Together we can grow and make our community better! :smiley:
 
 Do you have any suggestions on how we could improve this project overall? Let us know! We'd love to hear your feedback! 
 
+
+## Maintainers
+
+[![Raj Patel](https://github.com/rajpatel17-bot.png?size=100)](https://github.com/rajpatel17-bot)
+[Raj Patel](https://github.com/rajpatel17-bot) - Maintainer
+
+[![Upendra Sahni](https://github.com/upendrasahni.png?size=100)](https://github.com/upendrasahni)
+[Upendra Sahni](https://github.com/upendrasahni) - Maintainer
+
+[![Dipesh Patel](https://github.com/Dipesh049.png?size=100)](https://github.com/Dipesh049)
+[Dipesh Patel](https://github.com/Dipesh049) - Maintainer
+
+
+## Thanks to all the contributors ❤️
+
+<a href="https://github.com/rajpatel17-bot/SundarUI/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=rajpatel17-bot/SundarUI" />
+</a>
+
+## License💳
+
+Code is under the MIT License. See [LICENSE](./LICENCE) for more information.
+
+© 2023-24 SundarUI ❤️
