@@ -3,16 +3,17 @@ import logo from "../assets/logo.png";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react"
 import { BsGithub } from "react-icons/bs";
 import { AiOutlineMenu, AiOutlineClose, AiFillCaretDown } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 // Submenu actions
 const submenuActions = [
   {
-    name: "Tailwind Components",
-    href: "#",
+    name: <Link to={"/tailwindcomponents"}>Tailwind Components</Link>,
+    href: "/tailwindcomponents",
   },
   {
-    name: "Mobile Components",
-    href: "#",
+    name: <Link to={"/tailwindcomponents"}>Mobile Components</Link>,
+    href: "/mobilecomponents",
   },
 ];
 
@@ -31,10 +32,10 @@ export default function Navbar() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+          <Link to="/" className="-m-1.5 p-1.5">
+            <span className="sr-only">Sundar UI</span>
             <img className="h-20 w-auto" src={logo} alt="sundarui-logo" />
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -47,9 +48,9 @@ export default function Navbar() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="leading-6">
+          <Link to="/setupguides" className="leading-6">
             Setup Guide
-          </a>
+          </Link>
 
           {/* submenu section */}
           <Popover className="relative">
@@ -79,10 +80,10 @@ export default function Navbar() {
                       className="group relative flex items-center gap-x-6 rounded-lg p-4 leading-6"
                     >
                       <div className="flex-auto">
-                        <a href={item.href} className="block">
+                        <Link to={item.href} className="block">
                           {item.name}
                           <span className="absolute inset-0" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   ))}
@@ -93,12 +94,12 @@ export default function Navbar() {
           </Popover>
           {/* submenu section end */}
 
-          <a href="#" className="leading-6">
+          <Link to="/about" className="leading-6">
             About
-          </a>
-          <a href="#" className="leading-6">
+          </Link>
+          <Link to="/contribute" className="leading-6">
             Contribute
-          </a>
+          </Link>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
@@ -141,12 +142,12 @@ export default function Navbar() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                <a
-                  href="#"
+                <Link
+                  href="/setupguide"
                   className="-mx-3 block rounded-lg py-2 px-3 leading-7"
                 >
                   Setup Guide
-                </a>
+                </Link>
 
                 {/* dialog box submenu section */}
                 <Disclosure as="div" className="-mx-3">
@@ -182,12 +183,12 @@ export default function Navbar() {
                 </Disclosure>
                 {/* dialog box submenu section end */}
 
-                <a href="#" className="-mx-3 block rounded-lg py-2 px-3">
+                <Link href="/about" className="-mx-3 block rounded-lg py-2 px-3">
                   About
-                </a>
-                <a href="#" className="-mx-3 block rounded-lg py-2 px-3">
+                </Link>
+                <Link href="/contribute" className="-mx-3 block rounded-lg py-2 px-3">
                   Contribute
-                </a>
+                </Link>
               </div>
 
               {/* dialog box github button section */}
