@@ -1,5 +1,5 @@
-import Layoutheader from "../Components/Layoutheader";
-import { Faqsdata } from "../data/Faqsdata";
+import Layoutheader from "../../Components/Layoutheader";
+import { Faqsdata } from "../../data/Faqsdata";
 
 const Faqs = () => {
   return (

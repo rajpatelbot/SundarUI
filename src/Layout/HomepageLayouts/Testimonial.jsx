@@ -1,6 +1,6 @@
-import Layoutheader from "../Components/Layoutheader";
-import Testimonialcard from "../Components/Testimonialcard";
-import { Testinomialsdata } from "../data/Testinomialsdata";
+import Layoutheader from "../../Components/Layoutheader";
+import Testimonialcard from "../../Components/Testimonialcard";
+import { Testinomialsdata } from "../../data/Testinomialsdata";
 
 const Testimonial = () => {
   return (

@@ -1,6 +1,6 @@
-import Layoutheader from "../Components/Layoutheader";
-import Componentlayout from "../Components/Componentlayout";
-import { WebComponents } from "../data/ComponentsInfo";
+import Layoutheader from "../../Components/Layoutheader";
+import Componentlayout from "../../Components/Componentlayout";
+import { WebComponents } from "../../data/ComponentsInfo";
 
 const Component = () => {
   const webSubset = WebComponents.slice(0, 8);
