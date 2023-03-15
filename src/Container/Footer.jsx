@@ -1,5 +1,9 @@
 import logo from "../assets/logo.png";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiFillTwitterSquare,
+} from "react-icons/ai";
 
 export const Footer = () => {
   return (
@@ -18,8 +22,18 @@ export const Footer = () => {
               </p>
 
               <div className="flex mt-6">
-                <AiFillGithub className="text-5xl mr-1" />
-                <AiFillLinkedin className="text-5xl ml-1" />
+                <AiFillLinkedin
+                  className="text-5xl mx-1"
+                  style={{ color: "#0077b5" }}
+                />
+                <AiFillGithub
+                  className="text-5xl mr-1"
+                  style={{ color: "#171515" }}
+                />
+                <AiFillTwitterSquare
+                  className="text-5xl ml-1"
+                  style={{ color: "#00acee" }}
+                />
               </div>
             </div>
           </div>
