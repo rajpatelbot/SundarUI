@@ -1,20 +1,20 @@
-import Component from "../Layout/Component"
-import Crosstech from "../Layout/Crosstech"
-import Faqs from "../Layout/Faqs"
-import Hero from "../Layout/Hero"
-import Ourpurpose from "../Layout/Ourpurpose"
-import Testimonial from "../Layout/Testimonial"
+import Component from "../Layout/HomepageLayouts/Component"
+import Crosstech from "../Layout/HomepageLayouts/Crosstech"
+import Faqs from "../Layout/HomepageLayouts/Faqs"
+import Hero from "../Layout/HomepageLayouts/Hero"
+import Ourpurpose from "../Layout/HomepageLayouts/Ourpurpose"
+import Testimonial from "../Layout/HomepageLayouts/Testimonial"
 
 const Homepage = () => {
     return (
-        <div>
+        <section>
             <Hero />
             <Ourpurpose />
             <Crosstech />
             <Component />
             <Testimonial />
             <Faqs />
-        </div>
+        </section>
     )
 }
 
