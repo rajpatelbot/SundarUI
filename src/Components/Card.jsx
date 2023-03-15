@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { TbExternalLink } from "react-icons/tb";
 
 const Card = ({ id, icon, text, url }) => {
@@ -16,4 +17,4 @@ const Card = ({ id, icon, text, url }) => {
   );
 };
 
-export default Card;
+export default memo(Card);

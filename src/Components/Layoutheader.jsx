@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 const Layoutheader = ({ title, desc }) => {
   return (
     <section>
@@ -7,4 +9,4 @@ const Layoutheader = ({ title, desc }) => {
   );
 };
 
-export default Layoutheader;
+export default memo(Layoutheader);

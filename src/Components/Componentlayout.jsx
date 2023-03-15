@@ -1,5 +1,6 @@
 import Card from "./Card";
 import { Orange } from "./Button";
+import { memo } from "react";
 
 const Componentlayout = ({ webSubset, heading }) => {
   return (
@@ -22,4 +23,4 @@ const Componentlayout = ({ webSubset, heading }) => {
   );
 };
 
-export default Componentlayout;
+export default memo(Componentlayout);

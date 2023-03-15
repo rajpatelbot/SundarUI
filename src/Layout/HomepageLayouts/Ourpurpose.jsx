@@ -19,7 +19,7 @@ const Ourpurpose = () => {
           <div className="m-auto">
             <h2 className="bg-violet text-white px-5 py-2">Why SundarUI?</h2>
             <p className="mt-5">
-              Sundar UI provides prebuilt components for web developers to
+              Sundar UI provides prebuilts components for web developers to
               create beautiful interfaces easily. With a wide range of
               customizable and responsive components, developers can save time
               and effort by integrating them with popular web development

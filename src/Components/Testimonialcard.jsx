@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import { RiDoubleQuotesR } from "react-icons/ri";
 
@@ -19,4 +20,4 @@ const Testimonialcard = ({ key, name, msg, url, photo }) => {
   );
 };
 
-export default Testimonialcard;
+export default memo(Testimonialcard);
