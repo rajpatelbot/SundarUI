@@ -1,10 +1,10 @@
-import Layoutheader from '../../Components/Layoutheader';
+import Layoutheader from '../../../Components/Layoutheader';
 
-import crosstechImg from '../../assets/crosstech/crosstechImg.png';
-import html from '../../assets/crosstech/html.svg';
-import react from '../../assets/crosstech/react.svg';
-import vue from '../../assets/crosstech/vue.svg';
-import xml from '../../assets/crosstech/xml.svg';
+import crosstechImg from '../../../assets/crosstech/crosstechImg.png';
+import html from '../../../assets/crosstech/html.svg';
+import react from '../../../assets/crosstech/react.svg';
+import vue from '../../../assets/crosstech/vue.svg';
+import xml from '../../../assets/crosstech/xml.svg';
 
 const techDetails = [
   {

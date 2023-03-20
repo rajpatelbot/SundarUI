@@ -1,19 +1,13 @@
-import Layoutheader from "../../Components/Layoutheader";
-import { Faqsdata } from "../../data/Faqsdata";
+import Layoutheader from '../../../Components/Layoutheader';
+import { Faqsdata } from '../../../API/Faqsdata';
 
 const Faqs = () => {
   return (
     <div className="padding-px py-24">
       <div className="space-y-4 maxWidth m-auto">
-        <Layoutheader
-          title={"FAQs"}
-          desc={"Answers to Your Most Commonly Asked Questions."}
-        />
+        <Layoutheader title={'FAQs'} desc={'Answers to Your Most Commonly Asked Questions.'} />
         {Faqsdata.map((data) => (
-          <details
-            key={data.key}
-            className="group border-l-4 border-violet bg-white p-6"
-          >
+          <details key={data.key} className="group border-l-4 border-violet bg-white p-6">
             <summary className="flex items-center justify-between cursor-pointer">
               <h3 className="font-medium">{data.que}</h3>
 

@@ -1,7 +1,7 @@
-import Layoutheader from '../../Components/Layoutheader';
+import Layoutheader from '../../../Components/Layoutheader';
 
-import thinkBoy from '../../assets/pursoseAssets/thinkBoy.png';
-import motivation from '../../assets/pursoseAssets/motivation.png';
+import thinkBoy from '../../../assets/pursoseAssets/thinkBoy.png';
+import motivation from '../../../assets/pursoseAssets/motivation.png';
 
 const Ourpurpose = () => {
   return (
