@@ -1,5 +1,5 @@
-import { memo } from "react";
-import { TbExternalLink } from "react-icons/tb";
+import { TbExternalLink } from 'react-icons/tb';
+import { memo } from 'react';
 
 const Card = ({ id, icon, text, url }) => {
   return (

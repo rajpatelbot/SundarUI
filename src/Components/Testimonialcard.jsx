@@ -1,6 +1,6 @@
-import { memo } from "react";
-import { RiDoubleQuotesL } from "react-icons/ri";
-import { RiDoubleQuotesR } from "react-icons/ri";
+import { RiDoubleQuotesL } from 'react-icons/ri';
+import { RiDoubleQuotesR } from 'react-icons/ri';
+import { memo } from 'react';
 
 const Testimonialcard = ({ key, name, msg, url, photo }) => {
   return (
