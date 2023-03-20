@@ -1,21 +1,21 @@
-import Component from "../Layout/HomepageLayouts/Component"
-import Crosstech from "../Layout/HomepageLayouts/Crosstech"
-import Faqs from "../Layout/HomepageLayouts/Faqs"
-import Hero from "../Layout/HomepageLayouts/Hero"
-import Ourpurpose from "../Layout/HomepageLayouts/Ourpurpose"
-import Testimonial from "../Layout/HomepageLayouts/Testimonial"
+import Component from './components/Component';
+import Crosstech from './components/Crosstech';
+import Faqs from './components/Faqs';
+import Hero from './components/Hero';
+import Ourpurpose from './components/Ourpurpose';
+import Testimonial from './components/Testimonial';
 
 const Homepage = () => {
-    return (
-        <section>
-            <Hero />
-            <Ourpurpose />
-            <Crosstech />
-            <Component />
-            <Testimonial />
-            <Faqs />
-        </section>
-    )
-}
+  return (
+    <section>
+      <Hero />
+      <Ourpurpose />
+      <Crosstech />
+      <Component />
+      <Testimonial />
+      <Faqs />
+    </section>
+  );
+};
 
-export default Homepage
+export default Homepage;

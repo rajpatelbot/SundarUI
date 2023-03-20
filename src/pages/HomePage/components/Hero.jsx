@@ -1,7 +1,7 @@
-import { Orange, Violet } from '../../Components/Button';
+import { Orange, Violet } from '../../../Components/Button';
 
-import man from '../../assets/hero/man.png';
-import women from '../../assets/hero/women.png';
+import man from '../../../assets/hero/man.png';
+import women from '../../../assets/hero/women.png';
 
 const Hero = () => {
   return (
