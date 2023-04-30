@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 
-export interface ContentElementsProps {
+export interface HeadingPropsInterface {
   children: ReactNode;
   className?: string;
 }
