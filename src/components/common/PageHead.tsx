@@ -1,5 +1,4 @@
 import Head from 'next/head';
-
 interface PageHeadProps {
   title?: string;
   description?: string;
