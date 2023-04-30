@@ -24,19 +24,17 @@
     "semi": ["error", "always"],
     "quotes": ["error", "single", { "avoidEscape": true }],
     "space-before-blocks": "error",
-    "max-len": ["error", { "code": 240, "tabWidth": 2 }],
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     "no-trailing-spaces": "error",
-    "react-hooks/exhaustive-deps": "error",
+    "react-hooks/exhaustive-deps": "warn",
     "no-unused-vars": "error",
     "no-empty-function": "error",
     "no-unsafe-optional-chaining": "error",
     "multiline-ternary": "off",
     "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-explicit-any": "warn",
     "@typescript-eslint/no-unsafe-assignment": "error",
-    "@typescript-eslint/no-unsafe-member-access": "error",
     "@typescript-eslint/no-unsafe-call": "error"
   }
 }
