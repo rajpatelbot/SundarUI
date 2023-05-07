@@ -1,5 +1,5 @@
-import { HeadingPropsInterface } from '@/@types/interface';
+import { HeadingProps } from '@/@types/interface';
 
-export default function Heading({ children, className }: HeadingPropsInterface) {
-  return <h1 className={`text-4xl ${className}`}>{children}</h1>;
+export default function Heading({ children, className }: HeadingProps) {
+  return <h1 className={`text-2xl sm:text-4xl ${className}`}>{children}</h1>;
 }

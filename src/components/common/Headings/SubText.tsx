@@ -1,5 +1,5 @@
-import { HeadingPropsInterface } from '@/@types/interface';
+import { HeadingProps } from '@/@types/interface';
 
-export default function SubText({ children, className }: HeadingPropsInterface) {
-  return <p className={`text-lg ${className}`}>{children}</p>;
+export default function SubText({ children, className }: HeadingProps) {
+  return <p className={`text-sm sm:text-sm ${className}`}>{children}</p>;
 }
