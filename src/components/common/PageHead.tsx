@@ -8,7 +8,7 @@ interface PageHeadProps {
   ogType?: string;
 }
 
-export default function PageHead({ title, description, ogTitle, ogUrl, ogImage, ogType }: PageHeadProps): JSX.Element {
+export default function PageHead({ title, description, ogTitle, ogUrl, ogImage, ogType }: PageHeadProps) {
   if (!title) {
     title = 'Sundar UI - Prebuilt Tailwind & Mobile Components Collection';
   }
@@ -27,7 +27,7 @@ export default function PageHead({ title, description, ogTitle, ogUrl, ogImage, 
   }
 
   if (!ogImage) {
-    ogImage = '/logo512.png';
+    ogImage = '/sundarui.svg';
   }
 
   if (!ogType) {
@@ -38,7 +38,7 @@ export default function PageHead({ title, description, ogTitle, ogUrl, ogImage, 
     <Head>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/sundarui.svg" />
 
       <meta property="og:title" content={ogTitle} />
       <meta property="og:type" content={ogType} />
