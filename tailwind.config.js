@@ -18,6 +18,7 @@ module.exports = {
         yellow: '#FDF7C3',
         white: '#FFFFFF',
         black: '#000000',
+        offWhite: '#F2F2F2',
       },
 
       maxWidth: {
@@ -28,7 +29,7 @@ module.exports = {
         '4xl': '2.25rem',
         '2xl': '1.875rem',
         'lg': '1rem',
-        'sm': '0.875rem',
+        'sm': '0.9rem',
       },
     },
   },

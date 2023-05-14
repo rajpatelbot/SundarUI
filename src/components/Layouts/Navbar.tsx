@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import MaxWidthContainer from '../common/MaxWidthContainer';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import logo from '../../../public/sundarui-logo.svg';
+import logo from '../../../public/sundarui.svg';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +13,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-white shadow text-sm font-medium">
+    <nav className="shadow text-sm font-medium bg-offWhite z-10">
       <MaxWidthContainer>
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
