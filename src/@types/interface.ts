@@ -8,4 +8,6 @@ export interface HeadingProps extends ChildrenProp {
   className?: string;
 }
 
-export type ComponentChildrenProps = ChildrenProp;
+export interface ComponentProps extends ChildrenProp {
+  className?: string;
+}
