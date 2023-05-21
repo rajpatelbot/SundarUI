@@ -13,8 +13,8 @@ module.exports = {
     extend: {
       colors: {
         purple: '#B2A4FF',
-        red: '#FFB4B4',
-        orange: '#FFDEB4',
+        darkPurple: '#8B5CF6',
+        // orange: '#FFDEB4',
         yellow: '#FDF7C3',
         white: '#FFFFFF',
         black: '#000000',

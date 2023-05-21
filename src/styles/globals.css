@@ -8,6 +8,10 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+body {
+  background-color: #f7f8fc;
+}
+
 .icon-styling {
   font-size: 25px;
 }

@@ -1,8 +1,8 @@
-import { ComponentChildrenProps } from '@/@types/interface';
+import { ComponentProps } from '@/@types/interface';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
-export default function MultiLayout({ children }: ComponentChildrenProps) {
+export default function MultiLayout({ children }: ComponentProps) {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />

@@ -4,7 +4,7 @@ import { BsFillRocketTakeoffFill, BsGithub, BsTwitter, BsLinkedin } from 'react-
 
 export default function Footer() {
   return (
-    <footer className="bg-offWhite">
+    <footer className="bg-white">
       <MaxWidthContainer className="w-full">
         <section className="flex justify-between items-center">
           <SubText className="py-5 flex items-center gap-2 font-semibold">
