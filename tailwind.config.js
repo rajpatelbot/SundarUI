@@ -14,11 +14,12 @@ module.exports = {
       colors: {
         purple: '#B2A4FF',
         darkPurple: '#8B5CF6',
-        // orange: '#FFDEB4',
+        cyan: '#00C4CC',
         yellow: '#FDF7C3',
         white: '#FFFFFF',
         black: '#000000',
         offWhite: '#F2F2F2',
+        // orange: '#FFDEB4',
       },
 
       maxWidth: {

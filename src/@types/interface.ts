@@ -11,3 +11,8 @@ export interface HeadingProps extends ChildrenProp {
 export interface ComponentProps extends ChildrenProp {
   className?: string;
 }
+
+export interface navigationItemsInterface {
+  name: string;
+  url: string;
+}

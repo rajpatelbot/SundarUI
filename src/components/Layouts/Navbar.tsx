@@ -1,11 +1,17 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import MaxWidthContainer from '../common/MaxWidthContainer';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import { navigationItems } from '@/helper/constant';
+
+import { v4 as uuidv4 } from 'uuid';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+
+  const { pathname } = useRouter();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -18,18 +24,22 @@ export default function Navbar() {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <Link href="/">
-                <Image src="/sundarui.svg" height={70} width={70} alt="sundar_ui-logo" />
+                <Image src="/sundarui.svg" height="70" width="70" alt="sundarUi-logo" />
               </Link>
             </div>
           </div>
 
           <div className="hidden md:block">
             <div className="flex items-center space-x-8">
-              <Link href="/">Home</Link>
-              <Link href="/tailwind-components">Tailwind Components</Link>
-              <Link href="/mobile-components">Mobile Components</Link>
-              <Link href="/about">About</Link>
-              <Link href="/contribute">Contribute</Link>
+              {navigationItems.map((data) => (
+                <Link
+                  key={uuidv4()}
+                  href={data.url}
+                  className={`${pathname.includes(data.url) ? 'text-cyan' : 'text-black'}`}
+                >
+                  {data.name}
+                </Link>
+              ))}
             </div>
           </div>
 
@@ -53,12 +63,16 @@ export default function Navbar() {
 
         {isOpen && (
           <div className="md:hidden" id="mobile-menu">
-            <div className="px-4 sm:px-6 pt-2 pb-3 space-y-3 flex flex-col border-t-2 border-purple">
-              <Link href="/">Home</Link>
-              <Link href="/tailwind-components">Tailwind Components</Link>
-              <Link href="/mobile-components">Mobile Components</Link>
-              <Link href="/about">About</Link>
-              <Link href="/contribute">Contribute</Link>
+            <div className="pt-2 pb-3 space-y-3 flex flex-col border-t-2 border-purple">
+              {navigationItems.map((data) => (
+                <Link
+                  key={uuidv4()}
+                  href={data.url}
+                  className={`${pathname.includes(data.url) ? 'text-cyan' : 'text-black'}`}
+                >
+                  {data.name}
+                </Link>
+              ))}
             </div>
           </div>
         )}
