@@ -29,8 +29,8 @@ export default function Home() {
               Tailwind CSS, XML.
             </BodyText>
             <div className="flex justify-center gap-2">
-              <PrimaryButton buttonText="Explore Components" />
-              <SecondaryButton buttonText="Contribute" />
+              <PrimaryButton href="#components" buttonText="Explore Components" />
+              <SecondaryButton href="#!" buttonText="Contribute" />
             </div>
           </div>
         </MaxWidthContainer>
@@ -54,7 +54,7 @@ export default function Home() {
         </div>
       </MaxWidthContainer>
 
-      <div className="bg-darkPurple py-12">
+      <div className="bg-darkPurple py-12" id="components">
         <MaxWidthContainer>
           <SubHeading className="text-center text-white font-bold">Tailwind Components</SubHeading>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3 lg:grid-cols-4 mt-5">
@@ -63,18 +63,23 @@ export default function Home() {
                 <div className="w-16 m-auto">
                   <Image className="w-full" src={data.icon} alt={data.name} height={100} width={100} />
                 </div>
-                <Link href={data.url} className="bg-slate-200 rounded-md mt-4 flex items-center justify-center">
+                <Link
+                  href="/tailwindcomponents/[slug]"
+                  as={`/tailwindcomponents/${data.slug}`}
+                  className="bg-slate-100 rounded-md mt-4 flex items-center justify-center"
+                >
                   <BodyText className="text-center p-2">{data.name}</BodyText>
                   <TbExternalLink className="ml-2" />
                 </Link>
               </Card>
             ))}
           </div>
+          <div className="w-full mt-5 flex items-center justify-center">
+            <PrimaryButton href="/tailwindcomponents" buttonText="Explore All" className="bg-cyan" />
+          </div>
         </MaxWidthContainer>
-      </div>
 
-      <div className="bg-darkPurple py-12">
-        <MaxWidthContainer>
+        <MaxWidthContainer className="my-10">
           <SubHeading className="text-center text-white font-bold">Mobile Components</SubHeading>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3 lg:grid-cols-4 mt-5">
             {subWebComponents.map((data) => (
@@ -82,12 +87,19 @@ export default function Home() {
                 <div className="w-16 m-auto">
                   <Image className="w-full" src={data.icon} alt={data.name} height={100} width={100} />
                 </div>
-                <Link href={data.url} className="bg-slate-200 rounded-md mt-4 flex items-center justify-center">
+                <Link
+                  href="/tailwindcomponents/[slug]"
+                  as={`/tailwindcomponents/${data.slug}`}
+                  className="bg-slate-100 rounded-md mt-4 flex items-center justify-center"
+                >
                   <BodyText className="text-center p-2">{data.name}</BodyText>
                   <TbExternalLink className="ml-2" />
                 </Link>
               </Card>
             ))}
+          </div>
+          <div className="w-full mt-5 flex items-center justify-center">
+            <PrimaryButton href="#!" buttonText="Explore All" className="bg-cyan" />
           </div>
         </MaxWidthContainer>
       </div>
