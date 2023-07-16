@@ -1,3 +1,3 @@
-import TailwindComponentDynamicRoute from './[slug]';
+import TailwindComponentDynamicRoute from "./[slugs]";
 
 export default TailwindComponentDynamicRoute;

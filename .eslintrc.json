@@ -17,23 +17,23 @@
     "next/core-web-vitals"
   ],
 
-  "ignorePatterns": ["next.config.js"],
+  "ignorePatterns": ["next.config.js", "/services/response.ts"],
 
   "rules": {
-    "indent": ["error", 2, { "SwitchCase": 1 }],
-    "semi": ["error", "always"],
-    "quotes": ["error", "single", { "avoidEscape": true }],
+    // "indent": ["error", 2, { "SwitchCase": 1 }],
+    // "semi": ["error", "always"],
+    // "quotes": ["error", "single", { "avoidEscape": true }],
     "space-before-blocks": "error",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     "no-trailing-spaces": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "no-unused-vars": "error",
+    "no-unused-vars": "warn",
     "no-empty-function": "error",
     "no-unsafe-optional-chaining": "error",
     "multiline-ternary": "off",
     "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-unsafe-assignment": "error",
     "@typescript-eslint/no-unsafe-call": "error"
   }

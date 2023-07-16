@@ -1,6 +1,6 @@
-import { ComponentProps } from '@/@types/interface';
-import Navbar from './Navbar';
-import Footer from './Footer';
+import { ComponentProps } from "@/@types/interface";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 export default function MultiLayout({ children }: ComponentProps) {
   return (

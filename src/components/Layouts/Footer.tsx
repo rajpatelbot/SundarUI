@@ -1,16 +1,24 @@
-import SubText from '../common/Headings/SubText';
-import MaxWidthContainer from '../common/MaxWidthContainer';
-import { BsFillRocketTakeoffFill, BsGithub, BsTwitter, BsLinkedin } from 'react-icons/bs';
+import SubText from "../common/Headings/SubText";
+import MaxWidthContainer from "../common/MaxWidthContainer";
+import {
+  BsFillRocketTakeoffFill,
+  BsGithub,
+  BsTwitter,
+  BsLinkedin,
+} from "react-icons/bs";
 
 export default function Footer() {
   return (
-    <footer className="bg-white">
+    <footer className="bg-white z-10">
       <MaxWidthContainer className="w-full">
         <section className="flex justify-between items-center">
           <SubText className="py-5 flex items-center gap-2 font-semibold">
             <BsFillRocketTakeoffFill size={20} />
             Powered by
-            <a href="https://www.github.com/rajpatelbot" target="_blank" className="text-gray-600 hover:text-gray-800">
+            <a
+              href="https://www.github.com/rajpatelbot"
+              target="_blank"
+              className="text-gray-600 hover:text-gray-800">
               Raj Patel
             </a>
           </SubText>

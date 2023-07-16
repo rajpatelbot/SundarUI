@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from "next/head";
 interface PageHeadProps {
   title?: string;
   description?: string;
@@ -8,9 +8,16 @@ interface PageHeadProps {
   ogType?: string;
 }
 
-export default function PageHead({ title, description, ogTitle, ogUrl, ogImage, ogType }: PageHeadProps) {
+export default function PageHead({
+  title,
+  description,
+  ogTitle,
+  ogUrl,
+  ogImage,
+  ogType,
+}: PageHeadProps) {
   if (!title) {
-    title = 'Sundar UI - Prebuilt Tailwind & Mobile Components Collection';
+    title = "Sundar UI - Prebuilt Tailwind & Mobile Components Collection";
   }
 
   if (!description) {
@@ -19,19 +26,19 @@ export default function PageHead({ title, description, ogTitle, ogUrl, ogImage, 
   }
 
   if (!ogTitle) {
-    ogTitle = 'Sundar UI - Prebuilt Tailwind & Mobile Components Collection';
+    ogTitle = "Sundar UI - Prebuilt Tailwind & Mobile Components Collection";
   }
 
   if (!ogUrl) {
-    ogUrl = 'https://sundar-ui.netlify.app/';
+    ogUrl = "https://sundar-ui.netlify.app/";
   }
 
   if (!ogImage) {
-    ogImage = '/sundarui.svg';
+    ogImage = "/sundarui.svg";
   }
 
   if (!ogType) {
-    ogType = 'image/png';
+    ogType = "image/png";
   }
 
   return (
