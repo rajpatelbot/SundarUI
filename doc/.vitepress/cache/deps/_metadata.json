@@ -1,0 +1,86 @@
+{
+  "hash": "d0845c83",
+  "browserHash": "4368beb4",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/.pnpm/vue@3.3.4/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "16ac6c4f",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/.pnpm/@vue+devtools-api@6.5.0/node_modules/@vue/devtools-api/lib/esm/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "c5325670",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/integrations/useFocusTrap": {
+      "src": "../../../../node_modules/.pnpm/@vueuse+integrations@10.4.1_focus-trap@7.5.3_vue@3.3.4/node_modules/@vueuse/integrations/useFocusTrap.mjs",
+      "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
+      "fileHash": "0771a47e",
+      "needsInterop": false
+    },
+    "vitepress > mark.js/src/vanilla.js": {
+      "src": "../../../../node_modules/.pnpm/mark.js@8.11.1/node_modules/mark.js/src/vanilla.js",
+      "file": "vitepress___mark__js_src_vanilla__js.js",
+      "fileHash": "b903b3ed",
+      "needsInterop": false
+    },
+    "vitepress > minisearch": {
+      "src": "../../../../node_modules/.pnpm/minisearch@6.1.0/node_modules/minisearch/dist/es/index.js",
+      "file": "vitepress___minisearch.js",
+      "fileHash": "14aeae94",
+      "needsInterop": false
+    },
+    "vue3-tabs-component": {
+      "src": "../../../../node_modules/.pnpm/vue3-tabs-component@1.3.6_vue@3.3.4/node_modules/vue3-tabs-component/dist/vue3-tabs-component.mjs",
+      "file": "vue3-tabs-component.js",
+      "fileHash": "2faecd4b",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../../../node_modules/.pnpm/react@18.2.0/node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "d5403093",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../../../node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "c601b427",
+      "needsInterop": true
+    },
+    "react-icons/ai": {
+      "src": "../../../../node_modules/.pnpm/react-icons@4.11.0_react@18.2.0/node_modules/react-icons/ai/index.esm.js",
+      "file": "react-icons_ai.js",
+      "fileHash": "88aa7ceb",
+      "needsInterop": false
+    },
+    "react-icons/bs": {
+      "src": "../../../../node_modules/.pnpm/react-icons@4.11.0_react@18.2.0/node_modules/react-icons/bs/index.esm.js",
+      "file": "react-icons_bs.js",
+      "fileHash": "7a37e4b1",
+      "needsInterop": false
+    },
+    "react-icons/bi": {
+      "src": "../../../../node_modules/.pnpm/react-icons@4.11.0_react@18.2.0/node_modules/react-icons/bi/index.esm.js",
+      "file": "react-icons_bi.js",
+      "fileHash": "78627409",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-VXF7YQSN": {
+      "file": "chunk-VXF7YQSN.js"
+    },
+    "chunk-ICNAZZ4R": {
+      "file": "chunk-ICNAZZ4R.js"
+    },
+    "chunk-67UUJLDS": {
+      "file": "chunk-67UUJLDS.js"
+    },
+    "chunk-UXIASGQL": {
+      "file": "chunk-UXIASGQL.js"
+    }
+  }
+}
