@@ -3,7 +3,7 @@
 Alerts with icons, messages and description.
 
 ::: tip
-Here, the `react-icons` NPM package is used. You can use it as your choice.
+Here, the `lucide-react` NPM package is used. You can use it as your choice.
 :::
 
 ## Demo
