@@ -1,6 +1,6 @@
 # SundarUI😍
 
-  <p align="center">Discover a vast library of open-source Tailwind CSS components 🚀</p>
+<p align="center">Discover a vast library of open-source Tailwind CSS components 🚀</p>
 
 <p align="center">
   <a href="https://github.com/rajpatel17-bot/SundarUI/blob/master/LICENSE">
@@ -26,7 +26,7 @@ Sundar UI is a library of prebuilt user interface (UI) components that can be ea
 
 ## Features👍
 
-- **Comprehensive component library**
+- **Comprehensive component collection**
 - **Code snippets**
 - **Documentation**
 - **Responsive Tailwind Components**
