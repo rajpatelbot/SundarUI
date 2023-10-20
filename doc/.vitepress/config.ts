@@ -47,6 +47,7 @@ export default defineConfig({
           { text: "Profiles", link: "/profiles" },
         ],
       },
+      { text: "Contribution Guide", link: "/contribution-guide" },
     ],
 
     socialLinks: [
