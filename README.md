@@ -1,11 +1,6 @@
 # SundarUI😍
 
-<p align="center">
-<a href="https://sundar-ui.netlify.app/#">
-<img width="300" src="doc/public/logo.svg">
-</a>
   <p align="center">Discover a vast library of open-source Tailwind CSS components 🚀</p>
-</p>
 
 <p align="center">
   <a href="https://github.com/rajpatel17-bot/SundarUI/blob/master/LICENSE">
