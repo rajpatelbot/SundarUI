@@ -14,7 +14,7 @@ Here, the `lucide-react` NPM package is used. You can use it as your choice.
 import { createElement } from 'react'
 import { createRoot } from 'react-dom/client'
 import { ref, onMounted } from 'vue'
-import IconsButtons from '../../../src/components/buttons/IconsButtons.tsx'
+import IconsButtons from '../../../../src/components/form-elements/buttons/IconsButtons.tsx'
 
 const el = ref()
 
@@ -26,5 +26,5 @@ onMounted(() => {
 
 **Code Snippets**
 ::: details Contained Buttons
-<<< @/../src/components/buttons/IconsButtons.tsx
+<<< @/../src/components/form-elements/buttons/IconsButtons.tsx
 :::

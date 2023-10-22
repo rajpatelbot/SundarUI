@@ -10,7 +10,7 @@ Buttons with only text and without any background color or outline.
 import { createElement } from 'react'
 import { createRoot } from 'react-dom/client'
 import { ref, onMounted } from 'vue'
-import TextButtons from '../../../src/components/buttons/TextButtons.tsx'
+import TextButtons from '../../../../src/components/form-elements/buttons/TextButtons.tsx'
 
 const el = ref()
 
@@ -22,5 +22,5 @@ onMounted(() => {
 
 **Code Snippets**
 ::: details Text Buttons
-<<< @/../src/components/buttons/TextButtons.tsx
+<<< @/../src/components/form-elements/buttons/TextButtons.tsx
 :::
