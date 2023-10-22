@@ -1,6 +1,6 @@
-# Outlined Buttons
+# Contained Buttons
 
-Buttons with text, outline and without any background color.
+Buttons with background color.
 
 ## Demo
 
@@ -10,17 +10,17 @@ Buttons with text, outline and without any background color.
 import { createElement } from 'react'
 import { createRoot } from 'react-dom/client'
 import { ref, onMounted } from 'vue'
-import OutlinedButtons from '../../../src/components/buttons/OutlinedButtons.tsx'
+import ContainedButtons from '../../../../src/components/form-elements/buttons/ContainedButtons.tsx'
 
 const el = ref()
 
 onMounted(() => {
    const root = createRoot(el.value)
-   root.render(createElement(OutlinedButtons, {}, null))
+   root.render(createElement(ContainedButtons, {}, null))
 })
 </script>
 
 **Code Snippets**
 ::: details Contained Buttons
-<<< @/../src/components/buttons/OutlinedButtons.tsx
+<<< @/../src/components/form-elements/buttons/ContainedButtons.tsx
 :::
