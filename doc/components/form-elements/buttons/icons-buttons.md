@@ -25,6 +25,6 @@ onMounted(() => {
 </script>
 
 **Code Snippets**
-::: details Contained Buttons
+::: details Icons Buttons
 <<< @/../src/components/form-elements/buttons/IconsButtons.tsx
 :::

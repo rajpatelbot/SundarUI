@@ -21,6 +21,6 @@ onMounted(() => {
 </script>
 
 **Code Snippets**
-::: details Contained Buttons
+::: details Outlined Buttons
 <<< @/../src/components/form-elements/buttons/OutlinedButtons.tsx
 :::
