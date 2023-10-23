@@ -1,5 +1,10 @@
 import React from "react";
-import { RotateCcw, CheckCircle, Trash2, SendHorizontal } from "lucide-react";
+import {
+  RotateCcw,
+  CheckCircle,
+  Trash2,
+  SendHorizontal,
+} from "../../../node_modules/lucide-react";
 import * as FaIcons from "react-icons/fa6";
 const {
   FaLinkedin,
