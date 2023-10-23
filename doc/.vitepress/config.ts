@@ -31,7 +31,6 @@ export default defineConfig({
       {
         text: "Components",
         collapsed: false,
-        base: "/components",
         items: [
           {
             text: "Alerts",
@@ -44,14 +43,29 @@ export default defineConfig({
             ],
           },
           {
-            text: "Buttons",
+            text: "Form Elements",
             collapsed: true,
-            base: "/components/buttons",
             items: [
-              { text: "Text Buttons", link: "/text-buttons" },
-              { text: "Outlined Buttons", link: "/outlined-buttons" },
-              { text: "Contained Buttons", link: "/contained-buttons" },
-              { text: "Icons Buttons", link: "/icons-buttons" },
+              {
+                text: "Inputs",
+                collapsed: true,
+                base: "/components/form-elements/inputs",
+                items: [
+                  { text: "Basic Inputs", link: "/basic-inputs" },
+                  { text: "Icons Inputs", link: "/icons-inputs" },
+                ],
+              },
+              {
+                text: "Buttons",
+                collapsed: true,
+                base: "/components/form-elements/buttons",
+                items: [
+                  { text: "Text Buttons", link: "/text-buttons" },
+                  { text: "Outlined Buttons", link: "/outlined-buttons" },
+                  { text: "Contained Buttons", link: "/contained-buttons" },
+                  { text: "Icons Buttons", link: "/icons-buttons" },
+                ],
+              },
             ],
           },
         ],
