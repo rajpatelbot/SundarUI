@@ -1,8 +1,17 @@
 ---
+name: PR request
+about: PR that is for solve issue
+title: ''
+labels: ''
+assignees: ''
+
+---
 
 ### Pull Request Heading
 
 **Related Issue:**
+
+Fixes: #
 
 Link to the issue or feature request this pull request addresses, if applicable.
 
