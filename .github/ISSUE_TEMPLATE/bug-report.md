@@ -1,8 +1,15 @@
 ---
+name: Issue report
+about: Report an issue to improve us
+title: ''
+labels: ''
+assignees: ''
+
+---
 
 ### Issue Description
 
-Please provide a clear and concise description of the issue or feature request. 
+Please provide a clear and concise description of the issue or feature request.
 
 ### Expected Behavior
 
