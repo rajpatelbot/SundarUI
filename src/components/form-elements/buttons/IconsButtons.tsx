@@ -4,7 +4,7 @@ import {
   CheckCircle,
   Trash2,
   SendHorizontal,
-} from "../../../node_modules/lucide-react";
+} from "lucide-react";
 import * as FaIcons from "react-icons/fa6";
 const {
   FaLinkedin,
