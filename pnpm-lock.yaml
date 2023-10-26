@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  lucide:
+    specifier: ^0.288.0
+    version: 0.288.0
   lucide-react:
     specifier: ^0.288.0
     version: 0.288.0(react@18.2.0)
@@ -14,6 +17,9 @@ dependencies:
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
+  react-icons:
+    specifier: npm:@lorenzobloedow/react-icons@^1.0.0
+    version: /@lorenzobloedow/react-icons@1.0.0(react@18.2.0)
   vite:
     specifier: ^4.4.5
     version: 4.5.0(@types/node@20.8.7)
@@ -744,6 +750,14 @@ packages:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
+
+  /@lorenzobloedow/react-icons@1.0.0(react@18.2.0):
+    resolution: {integrity: sha512-fYFjTw9jS66XNvcQvmGZlJYMGT5hzZctnKAWmi4WCPXBNt6CUw4qF4iid+9GrhCahwlSgRFKpry5Nf2/n1rYdg==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /@nodelib/fs.scandir@2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1928,6 +1942,10 @@ packages:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
       react: 18.2.0
+    dev: false
+
+  /lucide@0.288.0:
+    resolution: {integrity: sha512-9jlnsdJjOIVsSY7AO1oh/5NEHVAOHS5mZObrIDuwQnNuUS1mNoxQRyJDB5i7PItEQw34XMcQ9fAdbIIoBFZL4A==}
     dev: false
 
   /magic-string@0.30.5:
