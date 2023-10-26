@@ -2,7 +2,7 @@ import React from "react";
 
 export default function TextButtons() {
   return (
-    <div className="flex items-center flex-wrap my-10">
+    <div className="flex items-center flex-wrap my-10 gap-x-3">
       {/* Primary Button */}
       <button className="text-blue-500 text-base font-semibold py-2 px-4 rounded-md duration-300 hover:text-blue-400 hover:bg-blue-50 active:bg-blue-100 w-28">
         Primary
