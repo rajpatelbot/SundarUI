@@ -66,6 +66,12 @@ export default defineConfig({
                   { text: "Icons Buttons", link: "/icons-buttons" },
                 ],
               },
+              {
+                text: "Forms",
+                collapsed: true,
+                base: "/components/form-elements/forms",
+                items: [{ text: "Login Form", link: "/login-form" }],
+              },
             ],
           },
         ],
